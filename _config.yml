@@ -1,0 +1,44 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: pygments
+markdown: kramdown
+disqus: beyond-sharepoint
+google_analytics: UA-39041736-4
+title: beyond-sharepoint
+description: "Tools, Utilities and Information to bend SharePoint to your will; emphasis on simplicity and cross-platform compatability"
+url: "https://beyond-sharepoint.github.io"
+logo: "https://beyond-sharepoint.github.io/assets/media/beyond-sharepoint-transparent.png"
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: beyond-sharepoint
+
+author:
+  name: Sean McLellan
+  email: beyond-sharepoint@sixconcepts.com
+  github: beyond-sharepoint
+  twitter: oceanswave
+  # pinterest: asd123
+  linkedin: seanmclellan
+  bio: "Sean McLellan has over 12 years of experience in Microsoft platform solutions covering technologies such as SharePoint 2010, 2013, WCF, WCF Data Services, Asp.Net and MVC. Recently, Sean has gone all-in on blending traditional Microsoft-based development with JavaScript based solutions that increase developer productivity while enhancing the end-user experience. Sean has a passion for keeping abreast of the latest trends in web and cloud based technologies, and dabbles in flying arial drones from time to time."
+  email_md5: 2e84ca2dedb779003fc3aea6ce58cf90
+  #email_md5: 02f3a4e985fcf7fade6ea3557fe4dda0
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH:
+
+gems:
+  - jekyll-paginate
+  - jekyll-seo-tag
