@@ -12,7 +12,7 @@ After diving in deep to SPFx I wanted to share some findings about some misconce
 
 Feel free to correct where I'm wrong and supply any more info. This is all subject to change, but these are current findings with the current bits.
 
-Chris O'Brien's blog is a great help on this, and referenced throughout (http://www.sharepointnutsandbolts.com/)
+Chris O'Brien's blog is a great help on this, and referenced throughout <http://www.sharepointnutsandbolts.com/>
 
 **Skipping the marketing for a second, what exactly is the SharePoint Framework (SPFx) from a technical standpoint?**
 
@@ -24,7 +24,7 @@ Chris O'Brien's blog is a great help on this, and referenced throughout (http://
 
 2) Defines a number of gulp tasks that generates the files that go into a .spapp (AppManifest.xml, etc) and zips them up. Other tasks provide local serving of a client-side webpart.
 
-3) Basic project structure based on inputs. See  http://www.sharepointnutsandbolts.com/2016/07/web-part-manifest-bundle-json-framework.html for a rundown of the structure.
+3) Basic project structure based on inputs. See  <http://www.sharepointnutsandbolts.com/2016/07/web-part-manifest-bundle-json-framework.html> for a rundown of the structure.
 
 Webpack is utilized for module loading and bundling.
 
