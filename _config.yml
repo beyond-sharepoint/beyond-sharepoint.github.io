@@ -42,3 +42,4 @@ BASE_PATH:
 gems:
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-sitemap
