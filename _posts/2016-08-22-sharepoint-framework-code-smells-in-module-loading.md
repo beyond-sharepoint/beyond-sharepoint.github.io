@@ -32,7 +32,8 @@ What if we needed a few more libraries that depend on one another -- we'd end up
 
 **Don't do this. _please_.**
 
-We could simplify this code with ```Promise.all(...)``` but we've got all these advanced module loading and bundling capabilities right at our fingertips already included with SPFx, let's use them!
+We could simplify this code with ```Promise.all(...)``` however, it's true that jQuery.simpleWeather depends on jQuery so we need to load them in order.
+Loading dependencies using UMD from a CDN makdes for a nice teaching example, but we've got all these advanced module loading and bundling capabilities right at our fingertips already included with SPFx, let's use them!
 
 
 I'm going to show one way of mitigating this code smell -- there's other ways, but this is pretty straightforward.
