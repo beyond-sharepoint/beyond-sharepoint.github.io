@@ -23,8 +23,6 @@ I created a shared mailbox creatively called "emailenabledlist". This will be th
 Now, add yourself (or the user who will be creating the flow) as a member of the Shared Mailbox.
 ![screenshot](/assets/media/2017-10-26-creating-an-email-enabled-list-in-O365-pt-2-02.png "Screenshot")
 
-> Important: Once you add a Shared Mailbox and grant yourself permissions, you must wait an hour or more before associating with a Flow, otherwise you may encounter an error that states "The specified object was not found in the store., The process failed to get the correct properties. We hope that this is resolved once the Trigger gets out of preview.
-
 Previously, we auto-forwarded messages to a 'Real' mailbox -- that's not needed anymore so at this point, we're done creating the Shared Mailbox. Let's start building the MS Flow.
 
 Create the Microsoft Flow
@@ -41,7 +39,7 @@ Sounds like just what we need. If we start typing the name of the Shared Mailbox
 
 ![screenshot](/assets/media/2017-10-26-creating-an-email-enabled-list-in-O365-pt-2-04.png "Screenshot")
 
-> Note: If you have recently deleted and then re-created a shared mailbox, you must remove the mailbox from the user recycle bin via AZ AD PowerShell prior to adding the shared mailbox trigger. Otherwise, you will recieve an error that states 'The specified object was not found in the store., the process failed to get the correct properties.'
+> Note: If you have recently deleted and then re-created a shared mailbox, you must remove the mailbox from the AD user recycle bin via AZ AD PowerShell prior to adding the shared mailbox trigger. Otherwise, you will recieve an error that states 'The specified object was not found in the store., the process failed to get the correct properties.'
 
 
 In this scenario, I only want mail messages that contain attachments to initiate my flow, so I'm going to expand the advanced options and select 'Yes' on 'Has Attachment'. Also, select 'Yes' on include attachments.
