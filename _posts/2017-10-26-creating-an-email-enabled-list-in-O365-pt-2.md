@@ -11,7 +11,7 @@ In a [previous post](https://beyond-sharepoint.github.io/o365/walkthrough/2016/0
 
 Since that time, Microsoft has added a new trigger (currently in preview) that allows emails coming to a Shared Mailbox to initiate a Microsoft Flow. Let's take a look at this new trigger and see how it can be used to create a flow that mimics email enabled list functionality.
 
-Since that time, SharePoint Site Mailboxes have also been deprecated, so this serves as a way to get email enabiled list functionality back into SharePoint Online as a no-code solution.
+Also of note, in Feb '17, SharePoint Site Mailboxes have also been deprecated, so this serves as a way to get email enabiled list functionality back into SharePoint Online.
 
 Create the Shared Mailbox
 ---
