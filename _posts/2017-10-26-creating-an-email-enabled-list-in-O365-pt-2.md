@@ -23,17 +23,17 @@ I created a shared mailbox creatively called "emailenabledlist". This will be th
 Now, add yourself (or the user who will be creating the flow) as a member of the Shared Mailbox.
 ![screenshot](/assets/media/2017-10-26-creating-an-email-enabled-list-in-O365-pt-2-02.png "Screenshot")
 
-Previously, we auto-forwarded messages to a 'Real' mailbox -- that's not needed anymore so at this point, we're done creating the Shared Mailbox. Let's start building the MS Flow.
+Previously, we auto-forwarded messages to a 'Real' mailbox. That's not needed anymore, so at this point, we're done creating the Shared Mailbox. Let's start building the MS Flow.
 
 Create the Microsoft Flow
 ---
 Now that our Shared Mailbox has been created, we can create a Microsoft flow that uses the new Shared Mailbox trigger to initiate a flow.
 
-Starting with a "Blank Flow" add the "When a new email arrives in a shared mailbox" trigger. This is the new trigger that has been added since my previous post. If we look at the description we see that it reads:
+Start with a "Blank Flow" and add the "When a new email arrives in a shared mailbox" trigger. This is the new trigger that has been added to MS Flow earlier in the year. If we look at the description we see that it reads:
 
 ![screenshot](/assets/media/2017-10-26-creating-an-email-enabled-list-in-O365-pt-2-03.png "Screenshot")
 
-Sounds like just what we need. If we start typing the name of the Shared Mailbox I set up earlier, I can see that the Flow Trigger finds my Shared Mailbox that I created. Sweet!
+Sounds like just what we need. If we add it and start typing the name of the Shared Mailbox I set up earlier, we can see that the trigger is able to find the Shared Mailbox that we created. Sweet!
 
 > Important: You must press the folder icon and select the inbox directly after selecting the shared mailbox, otherwise your flow won't be triggered. Also, the preview action has a bug where it auto-inserts a semi-colon at the end of the username, remove the semi-colon prior to clicking the folder icon.
 
