@@ -61,4 +61,4 @@ As mentioned, this should be able to be done with code-based solutions (through 
 
 Thanks,
 
-> Update: A simpler way to perform these steps has been posted here: https://beyond-sharepoint.github.io/o365/walkthrough/2016/08/01/creating-an-email-enabled-list-in-O365-and-microsoft-flow.html
+**10/26/17 Update: A simpler way to perform these steps has been posted here: https://beyond-sharepoint.github.io/o365/walkthrough/2016/08/01/creating-an-email-enabled-list-in-O365-and-microsoft-flow.html**
